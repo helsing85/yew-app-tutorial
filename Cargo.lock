@@ -674,13 +674,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "trunk-template"
-version = "0.1.0"
-dependencies = [
- "yew",
-]
-
-[[package]]
 name = "unicode-ident"
 version = "1.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -848,6 +841,13 @@ dependencies = [
  "wasm-bindgen-futures",
  "web-sys",
  "yew-macro",
+]
+
+[[package]]
+name = "yew-app-tutorial"
+version = "0.1.0"
+dependencies = [
+ "yew",
 ]
 
 [[package]]
